@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <div>
+        <h1><b><font color="red">Formulário</b></h1></font>
+        <h1><b>Formulário de escolha</b></h1>
+    </div>
+    <table border="1">
+        <caption>Tipos de veículos</caption>
+        <tr>
+            <td>Carro</td>
+            <td>Moto</td>
+            <td>Barco</td>
+            <td>Bicicleta</td>
+        </tr>
+        <tr>
+            <td>Celta</td>
+            <td>Suzuki</td>
+            <td>Fletcher</td>
+            <td>Caloi</td>
+        </tr>
+        <tr>
+            <td>Preto</td>
+            <td>Amarelo</td>
+            <td>Vermelho</td>
+            <td>Cinza</td>
+        </tr>
+    </table>
+</body>
+</br>
+    <form>
+        <label for="name">Nome:</label>
+        <br>
+        <input type="text" id="name" name="name" style="background-color: wheat; border-radius: 0vmin;">
+        <br>
+        <br>
+        <label for="age">Idade:</label>
+        <br>
+        <input type="text" id="age" name="age" style="background-color: wheat; border-radius: 0vmin;">
+        <br>
+        <br>
+        <label for="dat">Data de nascimento:</label>
+        <br>
+        <input type="date" id="dat" name="dat" style="background-color: wheat; border-radius: 0vmin;">
+        <br>
+        <br>
+        <label for="msg">Campo de interesse:</label>
+        <br>
+        <textarea id="msg" name="msg" style="background-color: wheat; border-radius: 0vmin;"> </textarea>
+    </form>
+</html>
